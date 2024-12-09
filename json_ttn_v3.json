@@ -1,0 +1,102 @@
+{
+  "name": "as.up.data.forward",
+  "time": "2024-12-08T13:56:18.091049621Z",
+  "identifiers": [
+    {
+      "device_ids": {
+        "device_id": "eui-0025ca0a0000853e",
+        "application_ids": {
+          "application_id": "laird-capteurs"
+        },
+        "dev_eui": "0025CA0A0000853E",
+        "join_eui": "70B3D57ED002389C",
+        "dev_addr": "260BE501"
+      }
+    }
+  ],
+  "data": {
+    "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+    "end_device_ids": {
+      "device_id": "eui-0025ca0a0000853e",
+      "application_ids": {
+        "application_id": "laird-capteurs"
+      },
+      "dev_eui": "0025CA0A0000853E",
+      "join_eui": "70B3D57ED002389C",
+      "dev_addr": "260BE501"
+    },
+    "correlation_ids": [
+      "gs:uplink:01JEK8X0TSRX75KJBYMQXE2W2N"
+    ],
+    "received_at": "2024-12-08T13:56:18.087112838Z",
+    "uplink_message": {
+      "session_key_id": "AZNjO+Ms2+uXYYoceArfLA==",
+      "f_port": 1,
+      "f_cnt": 10022,
+      "frm_payload": "AgEAAAAFAwAAAAAAAFcPAABXDwAAVw8=",
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "lorix4u",
+            "eui": "FCC23DFFFE0B619A"
+          },
+          "time": "2024-12-08T13:56:17.853429Z",
+          "timestamp": 108921907,
+          "rssi": -69,
+          "channel_rssi": -69,
+          "snr": 9.5,
+          "location": {
+            "latitude": 44.62648038031261,
+            "longitude": 4.3852364246098805,
+            "altitude": 200,
+            "source": "SOURCE_REGISTRY"
+          },
+          "uplink_token": "ChUKEwoHbG9yaXg0dRII/MI9//4LYZoQs4j4MxoMCIHL1roGEM/hvqMDILjOgeKV0jk=",
+          "received_at": "2024-12-08T13:56:17.879734991Z"
+        }
+      ],
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "868100000",
+        "timestamp": 108921907,
+        "time": "2024-12-08T13:56:17.853429Z"
+      },
+      "received_at": "2024-12-08T13:56:17.882108785Z",
+      "confirmed": true,
+      "consumed_airtime": "0.077056s",
+      "version_ids": {
+        "brand_id": "laird",
+        "model_id": "rs1xx-ext-multi-sensor",
+        "hardware_version": "rev 4",
+        "firmware_version": "6.1_20_6_16",
+        "band_id": "EU_863_870"
+      },
+      "network_ids": {
+        "net_id": "000013",
+        "ns_id": "EC656E0000000181",
+        "tenant_id": "ttn",
+        "cluster_id": "eu1",
+        "cluster_address": "eu1.cloud.thethings.network"
+      }
+    }
+  },
+  "correlation_ids": [
+    "gs:uplink:01JEK8X0TSRX75KJBYMQXE2W2N"
+  ],
+  "origin": "ip-10-100-7-178.eu-west-1.compute.internal",
+  "context": {
+    "tenant-id": "CgN0dG4="
+  },
+  "visibility": {
+    "rights": [
+      "RIGHT_APPLICATION_TRAFFIC_READ"
+    ]
+  },
+  "unique_id": "01JEK8X11BANYWMXDYA6GZA3GD"
+}
